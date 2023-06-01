@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+.navbar {
+  margin: 20px 20px 0px;
+  background-color: #1f367c;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.navbar > img {
+  margin: 20px 50px;
+}
+
+.navbar :nth-child(1) {
+  height: 70px;
+  width: auto;
+}
+
+.navbar :nth-child(2) {
+  height: 80%;
+  width: auto;
+}
+
+.header {
+  margin: 0px 20px;
+  background-color: #1f367c;
+  width: 90%;
+}
+
+.header-wrapper {
+  margin: 0px 50px;
+  padding: 80px 0px;
+  color: white;
+  height: 600px;
+  width: 50%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.header-wrapper > h1 {
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 80px;
+}
+
+.header-wrapper > p {
+  padding: 0px 150px 0px 0px;
+  font-size: 20px;
+}
+
+.button {
+  margin-top: 30px;
+  background-color: #ffffff;
+  border: 1px solid rgb(209, 213, 219);
+  border-radius: 5px;
+  color: #111827;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.25rem;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+button:hover {
+  background-color: #f9fafb;
+}
+
+button:focus {
+  outline: 2px solid rgba(0, 0, 0, 0.1);
+  outline-offset: 2px;
+}
+
+button:focus-visible {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.section-wrapper {
+  margin: 60px auto;
+  width: 90%;
+  height: 300px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.article-item {
+  height: 80px;
+  width: 20%;
+}
+
+.article-item > h2 {
+  margin: 5px 0px;
+  font-size: 24px;
+}
+
+.article-item > p {
+  margin: 5px 0px;
+  width: 60%;
+}
+
+.article-item > img {
+  height: 100px;
+  width: auto;
+}
